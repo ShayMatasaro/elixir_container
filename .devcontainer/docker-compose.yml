@@ -6,10 +6,10 @@ services:
       context: .
       dockerfile: Dockerfile
       args:
-        # Elixir Version
-        VARIANT: "1.12.3"
-        PHOENIX_VERSION: "1.6.0"
-        NODE_VERSION: "12"
+         # Elixir Version
+        VARIANT: "1.13.4-erlang-24.3.4-debian-bullseye-20210902"
+        PHOENIX_VERSION: "1.6.2"
+        NODE_VERSION: "16.15.1"
 
     init: true
 
